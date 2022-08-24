@@ -18,8 +18,8 @@ public class Boxing {
         Long g = 3L;
         System.out.println(c == d);
         System.out.println(e == f);
-        System.out.println(c == (a + b));
-        System.out.println(c.equals(a + b));
+        System.out.println(c == (a + b));//不太理解为什么是true？就因为是小于128吗？
+        System.out.println(c.equals(a + b));//equals有什么特殊性吗?equals是比较引用地址是不是相等，而不是值，equals不是一个运算符而是方法。
         System.out.println(g == (a + b));
         System.out.println(g.equals(a + b));
         System.out.println(new Integer(2) == new Integer(2));
