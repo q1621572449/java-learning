@@ -9,7 +9,7 @@ public class EnclosingOne {
 
     }
 
-    static public class InsideTwo {
+    static public class InsideTwo {//static在初始化时就已经创建了。
 
     }
 

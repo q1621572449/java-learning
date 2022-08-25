@@ -15,7 +15,7 @@ public class NumberEquation {
         System.out.println(i.equals(d)); // false
         System.out.println(d.equals(l)); // false
         System.out.println(i.equals(l)); // false
-        System.out.println(l.equals(42L)); // true
+        System.out.println(l.equals(42L)); // true???
     }
 }
 

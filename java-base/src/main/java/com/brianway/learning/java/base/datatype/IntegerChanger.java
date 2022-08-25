@@ -23,6 +23,10 @@ public class IntegerChanger {
 
         Integer c = 1;
         System.out.println("(警告:Integer缓存被改了,代码里:Integer c = 1;) 实际c=" + c);
+
+        String str = "Hujieyu";
+        str = "Jerry";
+        System.out.println(str);
     }
 
     public static void swap(Integer i1, Integer i2) {
